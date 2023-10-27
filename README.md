@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12480714&assignment_repo_type=AssignmentRepo)
 # Graph Representations
 
 Implement a function that converts an adjacency matrix to an adjacency list for
@@ -19,3 +20,16 @@ most important part. Add your answer to this markdown file.
 
 Implement a function to convert an adjacency list to an adjacency matrix and
 analyze it as above.
+
+## My analysis 
+
+The runtime complexity of my implementation for converting an adjacency matrix 
+to an adjacency list is $\Theta(|V|^2)$, where $\ V$ represents the number of vertices in the graph. 
+This is because it involves two nested 'for' loops that iterates over the rows and columns 
+of the adjacency matrix. 
+
+Sources Used: 
+
+- TA in Lab time 
+
+- https://www.geeksforgeeks.org/convert-adjacency-matrix-to-adjacency-list-representation-of-graph/
