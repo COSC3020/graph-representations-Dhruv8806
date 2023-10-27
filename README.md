@@ -20,3 +20,16 @@ most important part. Add your answer to this markdown file.
 
 Implement a function to convert an adjacency list to an adjacency matrix and
 analyze it as above.
+
+## My analysis 
+
+The runtime complexity of my implementation for converting an adjacency matrix 
+to an adjacency list is $\Theta(|V|^2)$, where $\ V$ represents the number of vertices in the graph. 
+This is because it involves two nested 'for' loops that iterates over the rows and columns 
+of the adjacency matrix. 
+
+Sources Used: 
+
+- TA in Lab time 
+
+- https://www.geeksforgeeks.org/convert-adjacency-matrix-to-adjacency-list-representation-of-graph/
